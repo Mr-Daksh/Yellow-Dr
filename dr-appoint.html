@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YellowDr/Dr. Appointment</title>
+    <link rel="stylesheet" type="text/css" href="dr-appoint.css">
+    <link rel="stylesheet" type="text/css" href="socialpanel.css">
+</head>
+
+<body>
+
+
+    <div class="mainheader" id="mainheader-nav">
+        <div class="logo layer" data-speed="5">
+            <a href="index.html"><img src="image/logo.jpg"></a>
+        </div>
+
+
+        <!-- <span id="mouseanime"></span> -->
+
+
+        <nav class="navbar" id="navbar">
+
+            <!-- --------new opyions included by daksh for mile view--------- -->
+
+            <a href="#" class="nav-head">Home</a>
+
+            <a href="#" class="nav-head">Our Services</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Make an
+                Dr. Appointment</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Book Lab
+                Tests, Scans, etc</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Consult
+                Dr. Online</a>
+            <br>
+            <!-- <br> -->
+
+            <a href="#" class="nav-head gradient">YellowDr FEEDS</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Any
+                Medical Help</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Read
+                Health Articles</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Seasonal
+                Symptoms/Cure</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Share
+                Your Content</a>
+
+            <br>
+
+            <!-- <a href="#" class="nav-head">Present Help needed</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Donate
+                Blood</a>
+            <a href="#" class="nav-subhead display-none-l display-block-m"><i class="fa fa-map-marker"></i>Need
+                Blood</a>
+            <br> -->
+            <!-- <br> -->
+
+            <!-- <br> -->
+
+            <a href="whyYellowdr.html" class="nav-head">Why<span class="logo-clr">Yellow</span>Dr?</a>
+            <a href="#contact-form" class="nav-head">Contact</a>
+
+            <a href="about-us.html" class="nav-head">About Us</a>
+
+
+            <a href="#" class="nav-head display-none-l display-block-m"></a>
+            <a href="#" class="nav-head display-none-l display-block-m"></a>
+
+
+            <!-- --------new opyions included by daksh for mile view--------- -->
+
+
+        </nav>
+
+
+        <div class="menubtn" id="menubtn">
+            <form action="login-signup.html" method="get">
+                <button class="registrationbtn" type="submit"> Log-In</button>
+            </form>
+
+        </div>
+        <button class="hamburger" id="hamburger">
+            <!-- <i class="fas fa-bars"></i> -->
+            <img src="image/hamburger.jpg" class="hamburger-icon" width="40rem" style="border:0px">
+        </button>
+    </div>
+
+    <!-- -----appointment section starts------- -->
+
+    <div class="dr-appoint">
+        <div class="filter">
+            <h1><i class="fas fa-filter"></i>FILTER BY</h1>
+            <div class="spec">
+                <h2>
+                    SPECIALITY
+                </h2>
+                <button id="car">Cardiologist</button>
+                <button id="gyn">Gynaecologist</button>
+                <button id="nep">Nephrologist</button>
+                <button id="opt">Opthalmologist</button>
+                <button id="ent">ENT</button>
+                <button id="pae">Paediatrician</button>
+                <button id="gph">General Physician</button>
+            </div>
+            <div class="price">
+                <h2>PRICE</h2>
+                <button id="prs"><b>
+                        < &#x20b9;500</b></button>
+                <button id="prm"><b>
+                        < &#x20b9;750</b></button>
+                <button id="prl"><b>
+                        < &#x20b9;1000</b></button>
+                <button id="prx"><b>> &#x20b9;1000</b></button>
+            </div>
+            <div class="gender">
+                <h2>GENDER</h2>
+                <button id="genm">Male Doctors</button>
+                <button id="genf">Female Doctors</button>
+            </div>
+        </div>
+        <div class="drm-pro">
+            <div class="drm-1" id="csms1">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Cardiologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4" id="rightsec">
+                    <p id="nbookadd">At <b>Cannot Place.</b><br>
+                        <i class="fa fa-map-marker"></i>
+                        <b>Delhi</b>
+                    </p>
+                    <h2 id="nbookp">&#x20b9; 499/-</h2>
+
+                    <div id="bookbtn1">
+                        <button onclick="confirmclass(bookbtn1, booksec1)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec1" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec1, bookbtn1)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+            <div class="drm-1" id="csmm2">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Cardiologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4" id="rightsec">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    
+                    <div id="bookbtn2">
+                        <button onclick="confirmclass(bookbtn2, booksec2)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec2" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec2, bookbtn2)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="csfm3">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Cardiologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    
+                    <div id="bookbtn3">
+                        <button onclick="confirmclass(bookbtn3, booksec3)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec3" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec3, bookbtn3)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="csml4">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Cardiologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 999/-</h2>
+                   
+                    <div id="bookbtn4">
+                        <button onclick="confirmclass(bookbtn4, booksec4)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec4" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec4, bookbtn4)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="csfx5">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Cardiologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 1249/-</h2>
+                   
+                    <div id="bookbtn5">
+                        <button onclick="confirmclass(bookbtn5, booksec5)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec5" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec5, bookbtn5)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="gsms1">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Gynaecologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 499/-</h2>
+                    
+                    <div id="bookbtn6">
+                        <button onclick="confirmclass(bookbtn6, booksec6)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec6" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec6, bookbtn6)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="gsfm2">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Gynaecologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    <div id="bookbtn7">
+                        <button onclick="confirmclass(bookbtn7, booksec7)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec7" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec7, bookbtn7)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="gsml3">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Gynaecologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 999/-</h2>
+                    <div id="bookbtn8">
+                        <button onclick="confirmclass(bookbtn8, booksec8)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec8" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec8, bookbtn8)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="nsfl1">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Nephrologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 999/-</h2>
+                    <div id="bookbtn9">
+                        <button onclick="confirmclass(bookbtn9, booksec9)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec9" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec9, bookbtn9)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="nsmm2">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Nephrologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    <div id="bookbtn10">
+                        <button onclick="confirmclass(bookbtn10, booksec10)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec10" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec10, bookbtn10)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="nsms3">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Nephrologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 499/-</h2>
+                    <div id="bookbtn11">
+                        <button onclick="confirmclass(bookbtn11, booksec11)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec11" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec11, bookbtn11)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="nsfx4">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Nephrologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 1249/-</h2>
+                    <div id="bookbtn12">
+                        <button onclick="confirmclass(bookbtn12, booksec12)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec12" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec12, bookbtn12)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="osms1">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra</h1>
+                        <p><b>Opthalmologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 499/-</h2>
+                    <div id="bookbtn13">
+                        <button onclick="confirmclass(bookbtn13, booksec13)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec13" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec13, bookbtn13)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="osfm2">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>Opthalmologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    <div id="bookbtn14">
+                        <button onclick="confirmclass(bookbtn14, booksec14)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec14" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec14, bookbtn14)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="osml3">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>Opthalmologist</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 999/-</h2>
+                    <div id="bookbtn15">
+                        <button onclick="confirmclass(bookbtn15, booksec15)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec15" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec15, bookbtn15)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="esms1">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>ENT</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 499/-</h2>
+                    <div id="bookbtn16">
+                        <button onclick="confirmclass(bookbtn16, booksec16)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec16" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec16, bookbtn16)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="esfm2">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>ENT</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    <div id="bookbtn17">
+                        <button onclick="confirmclass(bookbtn17, booksec17)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec17" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec17, bookbtn17)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="esmm3">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>ENT</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    <div id="bookbtn18">
+                        <button onclick="confirmclass(bookbtn18, booksec18)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec18" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec18, bookbtn18)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="esml4">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>ENT</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 999/-</h2>
+                    <div id="bookbtn19">
+                        <button onclick="confirmclass(bookbtn19, booksec19)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec19" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec19, bookbtn19)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="esmx5">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>ENT</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 1249/-</h2>
+                    <div id="bookbtn20">
+                        <button onclick="confirmclass(bookbtn20, booksec20)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec20" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec20, bookbtn20)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="psmm1">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>Paediatrician</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    <div id="bookbtn21">
+                        <button onclick="confirmclass(bookbtn21, booksec21)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec21" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec21, bookbtn21)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="psml2">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>Paediatrician</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 999/-</h2>
+                    <div id="bookbtn22">
+                        <button onclick="confirmclass(bookbtn22, booksec22)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec22" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec22, bookbtn22)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="gpsms1">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>General Physician</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 499/-</h2>
+                    <div id="bookbtn23">
+                        <button onclick="confirmclass(bookbtn23, booksec23)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec23" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec23, bookbtn23)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="gpsmm2">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>General Physician</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    <div id="bookbtn24">
+                        <button onclick="confirmclass(bookbtn24, booksec24)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec24" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec24, bookbtn24)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="gpsfm3">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>General Physician</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 749/-</h2>
+                    <div id="bookbtn25">
+                        <button onclick="confirmclass(bookbtn25, booksec25)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec25" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec25, bookbtn25)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="gpsfl4">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>General Physician</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 999/-</h2>
+                    <div id="bookbtn26">
+                        <button onclick="confirmclass(bookbtn26, booksec26)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec26" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec26, bookbtn26)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+            <div class="drm-1" id="gpsmx5">
+                <div class="sem-cont">
+                    <div class="image">
+                        <img src="image/doctor1.jpg">
+                        <div class="none" id="bookadd">
+                            <p>At <b>Cannot Place.</b> </p>
+                            <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                        </div>
+                    </div>
+                    <div class="drm-add">
+                        <h1>Dr. Moses Vendra n3</h1>
+                        <p><b>General Physician</b></p>
+                        <p>MBBS, ENT, MD - Nephrology</p>
+                        <p>5 Years Experience</p>
+                        <div class="days-avlm">
+                            <span>M</span>
+                            <span>T</span>
+                            <span>W</span>
+                            <span>T</span>
+                            <span>F</span>
+                            <span>S</span>
+                        </div>
+                        <h2 id="bookp" class="none">&#x20b9; 499/-</h2>
+                    </div>
+                </div>
+                <div class="pricem mg-r-4">
+                    <p>At <b>Cannot Place.</b> </p>
+                    <p><i class="fa fa-map-marker"></i> <b>Delhi</b></p>
+                    <h2>&#x20b9; 1249/-</h2>
+                    <div id="bookbtn27">
+                        <button onclick="confirmclass(bookbtn27, booksec27)">
+                            Book Appointment<p>No Booking Fee</p>
+                    </div>
+                    <div id="booksec27" class="confirmbook none">
+                        <h2>Select Date and Time of Booking</h2>
+                        <form action="#">
+                            <label for="date">Select Date</label>
+                            <input type="date" id="date" name="date">
+                            <br>
+                            <label for="time">Select Time</label>
+                            <input type="time" id="time" name="time">
+                            <br>
+                            <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+                            <div>
+                                <input type="submit" value="CONFIRM" id="submit">
+                                <button onclick="confirmclass(booksec27, bookbtn27)">CANCEL</button>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- <button>Video Consult</button> -->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- SOCIAL PANEL HTML -->
+    <div class="social-panel-container">
+        <div class="social-panel">
+            <p>
+                <span class="logo-clr">Yellow</span>Dr
+            </p>
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <h4>Get in touch on</h4>
+            <ul>
+                <li>
+                    <a href="https://instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <button class="floating-btn display-none-m">
+        Get in Touch
+    </button>
+
+
+
+    <!-- footer begins -->
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3><span class="yellow">Yellow</span><span class="blue">dr</span></h3>
+
+            <p class="footer-links">
+                <a href="index.html" class="link-1">Home</a>
+
+                <a href="about-us.html">About Us</a>
+
+                <a href="#contact-form">Contact</a>
+
+                <a href="#">Faq</a>
+
+                <a href="whyYellowdr.html">Why <span class="yellow">Yellow</span><span class="blue">dr</span>?</a>
+            </p>
+
+            <p class="footer-company-name">Yellowdr © 2015</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1.555.555.5555</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@company.com">support@company.com</a></p>
+            </div>
+
+            <div class="to-top display-none-m">
+                <a href="#">Back on Top</a>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+                vehicula sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi voluptatibus illo nisi
+                enim cupiditate harum.
+            </p>
+
+            <div class="footer-icons display-none-l display-block-m">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+            <div class="to-top display-none-l display-block-m">
+                <a href="#">Back on Top</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- footer ends -->
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navbar = document.getElementById('navbar');
+        const menubtn = document.getElementById('menubtn');
+
+        hamburger.addEventListener('click', () => {
+            navbar.classList.toggle('show');
+            menubtn.classList.toggle('menubtn-clicked');
+            hamburger.classList.toggle('hamburger-clicked');
+        })
+
+
+        const bookadd = document.getElementById('bookadd');
+        const nbookadd = document.getElementById('nbookadd');
+        const nbookp = document.getElementById('nbookp');
+        const bookp = document.getElementById('bookp');
+        const rightsec = document.getElementById('rightsec');
+
+
+function confirmclass(bookbtn, booksec) {
+    bookbtn.classList.add('none');
+    booksec.classList.remove('none');
+            // rightsec.classList.toggle('mg-r-4');
+        // bookadd.classList.toggle('none');
+        // nbookadd.classList.toggle('none');
+        // bookp.classList.toggle('none');
+        // nbookp.classList.toggle('none');
+}
+
+    </script>
+
+    <script>
+        const car = document.getElementById('car');
+        const gyn = document.getElementById('gyn');
+        const nep = document.getElementById('nep');
+        const opt = document.getElementById('opt');
+        const ent = document.getElementById('ent');
+        const pae = document.getElementById('pae');
+        const gph = document.getElementById('gph');
+        const prs = document.getElementById('prs');
+        const prm = document.getElementById('prm');
+        const prl = document.getElementById('prl');
+        const prx = document.getElementById('prx');
+        const genm = document.getElementById('genm');
+        const genf = document.getElementById('genf');
+
+
+        const csms1 = document.getElementById('csms1');
+        const csmm2 = document.getElementById('csmm2');
+        const csfm3 = document.getElementById('csfm3');
+        const csml4 = document.getElementById('csml4');
+        const csfx5 = document.getElementById('csfx5');
+        const gsms1 = document.getElementById('gsms1');
+        const gsfm2 = document.getElementById('gsfm2');
+        const gsml3 = document.getElementById('gsml3');
+        const nsfl1 = document.getElementById('nsfl1');
+        const nsmm2 = document.getElementById('nsmm2');
+        const nsms3 = document.getElementById('nsms3');
+        const nsfx4 = document.getElementById('nsfx4');
+        const osms1 = document.getElementById('osms1');
+        const osfm2 = document.getElementById('osfm2');
+        const osml3 = document.getElementById('osml3');
+        const esms1 = document.getElementById('esms1');
+        const esfm2 = document.getElementById('esfm2');
+        const esmm3 = document.getElementById('esmm3');
+        const esml4 = document.getElementById('esml4');
+        const esmx5 = document.getElementById('esmx5');
+        const psmm1 = document.getElementById('psmm1');
+        const psml2 = document.getElementById('psml2');
+        const gpsms1 = document.getElementById('gpsms1');
+        const gpsmm2 = document.getElementById('gpsmm2');
+        const gpsfm3 = document.getElementById('gpsfm3');
+        const gpsfl4 = document.getElementById('gpsfl4');
+        const gpsmx5 = document.getElementById('gpsmx5');
+
+        let c = 0;
+        let g = 0;
+        let n = 0;
+        let o = 0;
+        let e = 0;
+        let p = 0;
+        let gp = 0;
+
+        car.addEventListener('click', () => {
+            car.classList.toggle('clicked');
+            gyn.classList.remove('clicked');
+            nep.classList.remove('clicked');
+            opt.classList.remove('clicked');
+            ent.classList.remove('clicked');
+            pae.classList.remove('clicked');
+            gph.classList.remove('clicked');
+
+            if ((csms1.classList.contains('none'))) {
+                csms1.classList.toggle('none');
+                csmm2.classList.toggle('none');
+                csfm3.classList.toggle('none');
+                csml4.classList.toggle('none');
+                csfx5.classList.toggle('none');
+                c = 0;
+            }
+
+            if ((!(gsms1.classList.contains('none'))) && g == 1) {
+                gsms1.classList.remove('none');
+                gsfm2.classList.remove('none');
+                gsml3.classList.remove('none');
+                g = 0
+            }
+            else {
+                gsms1.classList.add('none');
+                gsfm2.classList.add('none');
+                gsml3.classList.add('none');
+                g = 1;
+            }
+
+
+            if ((!(nsfl1.classList.contains('none'))) && n == 1) {
+                nsfl1.classList.remove('none');
+                nsmm2.classList.remove('none');
+                nsms3.classList.remove('none');
+                nsfx4.classList.remove('none');
+                n = 0
+            }
+            else {
+                nsfl1.classList.add('none');
+                nsmm2.classList.add('none');
+                nsms3.classList.add('none');
+                nsfx4.classList.add('none');
+                n = 1
+            }
+
+            if ((!(osms1.classList.contains('none'))) && o == 1) {
+                osms1.classList.remove('none');
+                osfm2.classList.remove('none');
+                osml3.classList.remove('none');
+                o = 0
+            }
+            else {
+                osms1.classList.add('none');
+                osfm2.classList.add('none');
+                osml3.classList.add('none');
+                o = 1
+            }
+            if ((!(esms1.classList.contains('none'))) && e == 1) {
+                esms1.classList.remove('none');
+                esfm2.classList.remove('none');
+                esmm3.classList.remove('none');
+                esml4.classList.remove('none');
+                esmx5.classList.remove('none');
+                e = 0
+            }
+            else {
+                esms1.classList.add('none');
+                esfm2.classList.add('none');
+                esmm3.classList.add('none');
+                esml4.classList.add('none');
+                esmx5.classList.add('none');
+                // e = 1
+            }
+
+            if ((!(psmm1.classList.contains('none'))) && p == 1) {
+                psmm1.classList.remove('none');
+                psml2.classList.remove('none');
+                p = 0
+            }
+            else {
+                psmm1.classList.add('none');
+                psml2.classList.add('none');
+                p = 1
+            }
+
+            if ((!(gpsms1.classList.contains('none'))) && gp == 1) {
+                gpsms1.classList.remove('none');
+                gpsmm2.classList.remove('none');
+                gpsfm3.classList.remove('none');
+                gpsfl4.classList.remove('none');
+                gpsmx5.classList.remove('none');
+                gp = 0
+            }
+            else {
+                gpsms1.classList.add('none');
+                gpsmm2.classList.add('none');
+                gpsfm3.classList.add('none');
+                gpsfl4.classList.add('none');
+                gpsmx5.classList.add('none');
+                gp = 1
+            }
+        })
+
+        gyn.addEventListener('click', () => {
+            gyn.classList.toggle('clicked');
+            car.classList.remove('clicked');
+            nep.classList.remove('clicked');
+            opt.classList.remove('clicked');
+            ent.classList.remove('clicked');
+            pae.classList.remove('clicked');
+            gph.classList.remove('clicked');
+
+            if ((!(csms1.classList.contains('none'))) && c == 1) {
+                csms1.classList.remove('none');
+                csmm2.classList.remove('none');
+                csfm3.classList.remove('none');
+                csml4.classList.remove('none');
+                csfx5.classList.remove('none');
+                c = 0
+            }
+            else {
+                csms1.classList.add('none');
+                csmm2.classList.add('none');
+                csfm3.classList.add('none');
+                csml4.classList.add('none');
+                csfx5.classList.add('none');
+                c = 1;
+            }
+
+            if ((gsms1.classList.contains('none'))) {
+                gsms1.classList.toggle('none');
+                gsfm2.classList.toggle('none');
+                gsml3.classList.toggle('none');
+                g = 0;
+            }
+
+
+            if ((!(nsfl1.classList.contains('none'))) && n == 1) {
+                nsfl1.classList.remove('none');
+                nsmm2.classList.remove('none');
+                nsms3.classList.remove('none');
+                nsfx4.classList.remove('none');
+                n = 0
+            }
+            else {
+                nsfl1.classList.add('none');
+                nsmm2.classList.add('none');
+                nsms3.classList.add('none');
+                nsfx4.classList.add('none');
+                n = 1
+            }
+
+            if ((!(osms1.classList.contains('none'))) && o == 1) {
+                osms1.classList.remove('none');
+                osfm2.classList.remove('none');
+                osml3.classList.remove('none');
+                o = 0
+            }
+            else {
+                osms1.classList.add('none');
+                osfm2.classList.add('none');
+                osml3.classList.add('none');
+                o = 1
+            }
+            if ((!(esms1.classList.contains('none'))) && e == 1) {
+                esms1.classList.remove('none');
+                esfm2.classList.remove('none');
+                esmm3.classList.remove('none');
+                esml4.classList.remove('none');
+                esmx5.classList.remove('none');
+                e = 0
+            }
+            else {
+                esms1.classList.add('none');
+                esfm2.classList.add('none');
+                esmm3.classList.add('none');
+                esml4.classList.add('none');
+                esmx5.classList.add('none');
+                // e = 1
+            }
+
+            if ((!(psmm1.classList.contains('none'))) && p == 1) {
+                psmm1.classList.remove('none');
+                psml2.classList.remove('none');
+                p = 0
+            }
+            else {
+                psmm1.classList.add('none');
+                psml2.classList.add('none');
+                p = 1
+            }
+
+            if ((!(gpsms1.classList.contains('none'))) && gp == 1) {
+                gpsms1.classList.remove('none');
+                gpsmm2.classList.remove('none');
+                gpsfm3.classList.remove('none');
+                gpsfl4.classList.remove('none');
+                gpsmx5.classList.remove('none');
+                gp = 0
+            }
+            else {
+                gpsms1.classList.add('none');
+                gpsmm2.classList.add('none');
+                gpsfm3.classList.add('none');
+                gpsfl4.classList.add('none');
+                gpsmx5.classList.add('none');
+                gp = 1
+            }
+        })
+
+        nep.addEventListener('click', () => {
+            nep.classList.toggle('clicked');
+            car.classList.remove('clicked');
+            gyn.classList.remove('clicked');
+            opt.classList.remove('clicked');
+            ent.classList.remove('clicked');
+            pae.classList.remove('clicked');
+            gph.classList.remove('clicked');
+
+
+            if ((!(csms1.classList.contains('none'))) && c == 1) {
+                csms1.classList.remove('none');
+                csmm2.classList.remove('none');
+                csfm3.classList.remove('none');
+                csml4.classList.remove('none');
+                csfx5.classList.remove('none');
+                c = 0
+            }
+            else {
+                csms1.classList.add('none');
+                csmm2.classList.add('none');
+                csfm3.classList.add('none');
+                csml4.classList.add('none');
+                csfx5.classList.add('none');
+                c = 1
+            }
+
+            if ((!(gsms1.classList.contains('none'))) && g == 1) {
+                gsms1.classList.remove('none');
+                gsfm2.classList.remove('none');
+                gsml3.classList.remove('none');
+                g = 0
+            }
+            else {
+                gsms1.classList.add('none');
+                gsfm2.classList.add('none');
+                gsml3.classList.add('none');
+                g = 1
+            }
+
+
+            if ((nsfl1.classList.contains('none'))) {
+                nsfl1.classList.toggle('none');
+                nsmm2.classList.toggle('none');
+                nsms3.classList.toggle('none');
+                nsfx4.classList.toggle('none');
+                n = 0
+            }
+
+            if ((!(osms1.classList.contains('none'))) && o == 1) {
+                osms1.classList.remove('none');
+                osfm2.classList.remove('none');
+                osml3.classList.remove('none');
+                o = 0
+            }
+            else {
+                osms1.classList.add('none');
+                osfm2.classList.add('none');
+                osml3.classList.add('none');
+                o = 1
+            }
+            if ((!(esms1.classList.contains('none'))) && e == 1) {
+                esms1.classList.remove('none');
+                esfm2.classList.remove('none');
+                esmm3.classList.remove('none');
+                esml4.classList.remove('none');
+                esmx5.classList.remove('none');
+                e = 0
+            }
+            else {
+                esms1.classList.add('none');
+                esfm2.classList.add('none');
+                esmm3.classList.add('none');
+                esml4.classList.add('none');
+                esmx5.classList.add('none');
+            }
+
+            if ((!(psmm1.classList.contains('none'))) && p == 1) {
+                psmm1.classList.remove('none');
+                psml2.classList.remove('none');
+                p = 0
+            }
+            else {
+                psmm1.classList.add('none');
+                psml2.classList.add('none');
+                p = 1
+            }
+
+            if ((!(gpsms1.classList.contains('none'))) && gp == 1) {
+                gpsms1.classList.remove('none');
+                gpsmm2.classList.remove('none');
+                gpsfm3.classList.remove('none');
+                gpsfl4.classList.remove('none');
+                gpsmx5.classList.remove('none');
+                gp = 0
+            }
+            else {
+                gpsms1.classList.add('none');
+                gpsmm2.classList.add('none');
+                gpsfm3.classList.add('none');
+                gpsfl4.classList.add('none');
+                gpsmx5.classList.add('none');
+                gp = 1
+            }
+        })
+
+        opt.addEventListener('click', () => {
+            opt.classList.toggle('clicked');
+            car.classList.remove('clicked');
+            gyn.classList.remove('clicked');
+            nep.classList.remove('clicked');
+            ent.classList.remove('clicked');
+            pae.classList.remove('clicked');
+            gph.classList.remove('clicked');
+
+            if ((!(csms1.classList.contains('none'))) && c == 1) {
+                csms1.classList.remove('none');
+                csmm2.classList.remove('none');
+                csfm3.classList.remove('none');
+                csml4.classList.remove('none');
+                csfx5.classList.remove('none');
+                c = 0
+            }
+            else {
+                csms1.classList.add('none');
+                csmm2.classList.add('none');
+                csfm3.classList.add('none');
+                csml4.classList.add('none');
+                csfx5.classList.add('none');
+                c = 1
+            }
+
+            if ((!(gsms1.classList.contains('none'))) && g == 1) {
+                gsms1.classList.toggle('none');
+                gsfm2.classList.toggle('none');
+                gsml3.classList.toggle('none');
+                g = 0
+            }
+            else {
+                gsms1.classList.add('none');
+                gsfm2.classList.add('none');
+                gsml3.classList.add('none');
+                g = 1
+            }
+
+
+            if ((!(nsfl1.classList.contains('none'))) && n == 1) {
+                nsfl1.classList.remove('none');
+                nsmm2.classList.remove('none');
+                nsms3.classList.remove('none');
+                nsfx4.classList.remove('none');
+                n = 0
+            }
+            else {
+                nsfl1.classList.add('none');
+                nsmm2.classList.add('none');
+                nsms3.classList.add('none');
+                nsfx4.classList.add('none');
+                n = 1
+            }
+
+            if ((osms1.classList.contains('none'))) {
+                osms1.classList.toggle('none');
+                osfm2.classList.toggle('none');
+                osml3.classList.toggle('none');
+                o = 0
+            }
+
+            if ((!(esms1.classList.contains('none'))) && e == 1) {
+                esms1.classList.remove('none');
+                esfm2.classList.remove('none');
+                esmm3.classList.remove('none');
+                esml4.classList.remove('none');
+                esmx5.classList.remove('none');
+                e = 0
+            }
+            else {
+                esms1.classList.add('none');
+                esfm2.classList.add('none');
+                esmm3.classList.add('none');
+                esml4.classList.add('none');
+                esmx5.classList.add('none');
+                e = 1
+            }
+
+            if ((!(psmm1.classList.contains('none'))) && p == 1) {
+                psmm1.classList.remove('none');
+                psml2.classList.remove('none');
+                p = 0
+            }
+            else {
+                psmm1.classList.add('none');
+                psml2.classList.add('none');
+                p = 1
+            }
+
+            if ((!(gpsms1.classList.contains('none'))) && gp == 1) {
+                gpsms1.classList.remove('none');
+                gpsmm2.classList.remove('none');
+                gpsfm3.classList.remove('none');
+                gpsfl4.classList.remove('none');
+                gpsmx5.classList.remove('none');
+                gp = 0
+            }
+            else {
+                gpsms1.classList.add('none');
+                gpsmm2.classList.add('none');
+                gpsfm3.classList.add('none');
+                gpsfl4.classList.add('none');
+                gpsmx5.classList.add('none');
+                gp = 1
+            }
+        })
+
+        ent.addEventListener('click', () => {
+            ent.classList.toggle('clicked');
+            car.classList.remove('clicked');
+            gyn.classList.remove('clicked');
+            nep.classList.remove('clicked');
+            opt.classList.remove('clicked');
+            pae.classList.remove('clicked');
+            gph.classList.remove('clicked');
+
+            if ((!(csms1.classList.contains('none'))) && c == 1) {
+                csms1.classList.remove('none');
+                csmm2.classList.remove('none');
+                csfm3.classList.remove('none');
+                csml4.classList.remove('none');
+                csfx5.classList.remove('none');
+                c = 0
+            }
+            else {
+                csms1.classList.add('none');
+                csmm2.classList.add('none');
+                csfm3.classList.add('none');
+                csml4.classList.add('none');
+                csfx5.classList.add('none');
+                c = 1
+            }
+
+            if ((!(gsms1.classList.contains('none'))) && g == 1) {
+                gsms1.classList.remove('none');
+                gsfm2.classList.remove('none');
+                gsml3.classList.remove('none');
+                g = 0
+            }
+            else {
+                gsms1.classList.add('none');
+                gsfm2.classList.add('none');
+                gsml3.classList.add('none');
+                g = 1
+            }
+
+
+            if ((!(nsfl1.classList.contains('none'))) && n == 1) {
+                nsfl1.classList.remove('none');
+                nsmm2.classList.remove('none');
+                nsms3.classList.remove('none');
+                nsfx4.classList.remove('none');
+                n = 0
+            }
+            else {
+                nsfl1.classList.add('none');
+                nsmm2.classList.add('none');
+                nsms3.classList.add('none');
+                nsfx4.classList.add('none');
+                n = 1
+            }
+
+            if ((!(osms1.classList.contains('none'))) && o == 1) {
+                osms1.classList.remove('none');
+                osfm2.classList.remove('none');
+                osml3.classList.remove('none');
+                o = 0
+            }
+            else {
+                osms1.classList.add('none');
+                osfm2.classList.add('none');
+                osml3.classList.add('none');
+                o = 1
+            }
+            if ((esms1.classList.contains('none'))) {
+                esms1.classList.toggle('none');
+                esfm2.classList.toggle('none');
+                esmm3.classList.toggle('none');
+                esml4.classList.toggle('none');
+                esmx5.classList.toggle('none');
+                e = 0
+            }
+
+            if ((!(psmm1.classList.contains('none'))) && p == 1) {
+                psmm1.classList.remove('none');
+                psml2.classList.remove('none');
+                p = 0
+            }
+            else {
+                psmm1.classList.add('none');
+                psml2.classList.add('none');
+                p = 1
+            }
+
+            if ((!(gpsms1.classList.contains('none'))) && gp == 1) {
+                gpsms1.classList.remove('none');
+                gpsmm2.classList.remove('none');
+                gpsfm3.classList.remove('none');
+                gpsfl4.classList.remove('none');
+                gpsmx5.classList.remove('none');
+                gp = 0
+            }
+            else {
+                gpsms1.classList.add('none');
+                gpsmm2.classList.add('none');
+                gpsfm3.classList.add('none');
+                gpsfl4.classList.add('none');
+                gpsmx5.classList.add('none');
+                gp = 1
+            }
+        })
+
+        pae.addEventListener('click', () => {
+            pae.classList.toggle('clicked');
+            car.classList.remove('clicked');
+            gyn.classList.remove('clicked');
+            nep.classList.remove('clicked');
+            opt.classList.remove('clicked');
+            ent.classList.remove('clicked');
+            gph.classList.remove('clicked');
+
+            if ((!(csms1.classList.contains('none'))) && c == 1) {
+                csms1.classList.remove('none');
+                csmm2.classList.remove('none');
+                csfm3.classList.remove('none');
+                csml4.classList.remove('none');
+                csfx5.classList.remove('none');
+                c = 0
+            }
+            else {
+                csms1.classList.add('none');
+                csmm2.classList.add('none');
+                csfm3.classList.add('none');
+                csml4.classList.add('none');
+                csfx5.classList.add('none');
+                c = 1
+            }
+
+            if ((!(gsms1.classList.contains('none'))) && g == 1) {
+                gsms1.classList.remove('none');
+                gsfm2.classList.remove('none');
+                gsml3.classList.remove('none');
+                g = 0
+            }
+            else {
+                gsms1.classList.add('none');
+                gsfm2.classList.add('none');
+                gsml3.classList.add('none');
+                g = 1
+            }
+
+
+            if ((!(nsfl1.classList.contains('none'))) && n == 1) {
+                nsfl1.classList.remove('none');
+                nsmm2.classList.remove('none');
+                nsms3.classList.remove('none');
+                nsfx4.classList.remove('none');
+                n = 0
+            }
+            else {
+                nsfl1.classList.add('none');
+                nsmm2.classList.add('none');
+                nsms3.classList.add('none');
+                nsfx4.classList.add('none');
+                n = 1
+            }
+
+            if ((!(osms1.classList.contains('none'))) && o == 1) {
+                osms1.classList.toggle('none');
+                osfm2.classList.toggle('none');
+                osml3.classList.toggle('none');
+                o = 0
+            }
+            else {
+                osms1.classList.add('none');
+                osfm2.classList.add('none');
+                osml3.classList.add('none');
+                o = 1
+            }
+            if ((!(esms1.classList.contains('none'))) && e == 1) {
+                esms1.classList.remove('none');
+                esfm2.classList.remove('none');
+                esmm3.classList.remove('none');
+                esml4.classList.remove('none');
+                esmx5.classList.remove('none');
+                e = 0
+            }
+            else {
+                esms1.classList.add('none');
+                esfm2.classList.add('none');
+                esmm3.classList.add('none');
+                esml4.classList.add('none');
+                esmx5.classList.add('none');
+                e = 1
+            }
+
+            if ((psmm1.classList.contains('none'))) {
+                psmm1.classList.toggle('none');
+                psml2.classList.toggle('none');
+                p = 0
+            }
+
+            if ((!(gpsms1.classList.contains('none'))) && gp == 1) {
+                gpsms1.classList.remove('none');
+                gpsmm2.classList.remove('none');
+                gpsfm3.classList.remove('none');
+                gpsfl4.classList.remove('none');
+                gpsmx5.classList.remove('none');
+                gp = 0
+            }
+            else {
+                gpsms1.classList.add('none');
+                gpsmm2.classList.add('none');
+                gpsfm3.classList.add('none');
+                gpsfl4.classList.add('none');
+                gpsmx5.classList.add('none');
+                gp = 1
+            }
+        })
+
+        gph.addEventListener('click', () => {
+            gph.classList.toggle('clicked');
+            car.classList.remove('clicked');
+            gyn.classList.remove('clicked');
+            nep.classList.remove('clicked');
+            opt.classList.remove('clicked');
+            ent.classList.remove('clicked');
+            pae.classList.remove('clicked');
+
+            if ((!(csms1.classList.contains('none'))) && c == 1) {
+                csms1.classList.remove('none');
+                csmm2.classList.remove('none');
+                csfm3.classList.remove('none');
+                csml4.classList.remove('none');
+                csfx5.classList.remove('none');
+                c = 0
+            }
+            else {
+                csms1.classList.add('none');
+                csmm2.classList.add('none');
+                csfm3.classList.add('none');
+                csml4.classList.add('none');
+                csfx5.classList.add('none');
+                c = 1
+            }
+
+            if ((!(gsms1.classList.contains('none'))) && g == 1) {
+                gsms1.classList.remove('none');
+                gsfm2.classList.remove('none');
+                gsml3.classList.remove('none');
+                g = 0
+            }
+            else {
+                gsms1.classList.add('none');
+                gsfm2.classList.add('none');
+                gsml3.classList.add('none');
+                g = 1
+            }
+
+
+            if ((!(nsfl1.classList.contains('none'))) && n == 1) {
+                nsfl1.classList.remove('none');
+                nsmm2.classList.remove('none');
+                nsms3.classList.remove('none');
+                nsfx4.classList.remove('none');
+                n = 0
+            }
+            else {
+                nsfl1.classList.add('none');
+                nsmm2.classList.add('none');
+                nsms3.classList.add('none');
+                nsfx4.classList.add('none');
+                n = 1
+            }
+
+            if ((!(osms1.classList.contains('none'))) && o == 1) {
+                osms1.classList.toggle('none');
+                osfm2.classList.toggle('none');
+                osml3.classList.toggle('none');
+                o = 0
+            }
+            else {
+                osms1.classList.add('none');
+                osfm2.classList.add('none');
+                osml3.classList.add('none');
+                o = 1
+            }
+            if ((!(esms1.classList.contains('none'))) && e == 1) {
+                esms1.classList.remove('none');
+                esfm2.classList.remove('none');
+                esmm3.classList.remove('none');
+                esml4.classList.remove('none');
+                esmx5.classList.remove('none');
+                e = 0
+            }
+            else {
+                esms1.classList.add('none');
+                esfm2.classList.add('none');
+                esmm3.classList.add('none');
+                esml4.classList.add('none');
+                esmx5.classList.add('none');
+                e = 1
+            }
+
+            if ((!(psmm1.classList.contains('none'))) && p == 1) {
+                psmm1.classList.toggle('none');
+                psml2.classList.toggle('none');
+                p = 0
+            }
+            else {
+                psmm1.classList.add('none');
+                psml2.classList.add('none');
+                p = 1
+            }
+
+            if ((gpsms1.classList.contains('none'))) {
+                gpsms1.classList.toggle('none');
+                gpsmm2.classList.toggle('none');
+                gpsfm3.classList.toggle('none');
+                gpsfl4.classList.toggle('none');
+                gpsmx5.classList.toggle('none');
+                gp = 0
+            }
+        })
+    </script>
+
+    <script src="socialpanel.js"></script>
+    <script src="https://kit.fontawesome.com/27571689ba.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- <div class="confirmbook">
+    <h2>Select Date and Time of Booking</h2>
+    <form action="#">
+        <label for="date">Select Date</label>
+        <input type="date" id="date" name="date">
+        <br>
+        <label for="time">Select Time</label>
+        <input type="time" id="time" name="time">
+        <br>
+        <p>*Booking Confirmation will be sent to phone of 15minutes, +/- 30minutes.</p>
+        <div>
+            <input type="submit" value="CONFIRM" id="submit">
+            <button>CANCEL</button>
+        </div>
+    </form>
+
+</div> -->
+
+
+<!-- 
+function confirmbook(id) {
+    idr = id
+    id.innerHTML = "<div class='confirmbook'><h2>Select Date and Time of Booking</h2><form action='#'><label for='date'>Select Date:</label><input type='date' id='date' name='date'><br><label for='time'>Select Time:</label><input type='time' id='time' name='time'><br><p>*Booking Confirmation will be sent to phone of 15minutes from the time selected, +/- 30minutes.</p><div><input type='submit' value='CONFIRM' id='submit'><button onclick='cancelbook(valueOf(id))'>CANCEL</button></div></form></div>";
+    console.log(idr);
+
+bookadd.classList.remove('none');
+nbookadd.classList.add('none');
+bookp.classList.remove('none');
+nbookp.classList.add('none');
+    rightsec.classList.remove('mg-r-4');
+}
+
+function cancelbook(id) {
+    id.innerHTML = "<button onclick='bookstatus(valueOf(id), 1)'>Book Appointment<p>No Booking Fee</p></button>";
+    console.log(id);
+
+    bookadd.classList.add('none');
+    nbookadd.classList.remove('none');
+    nbookp.classList.remove('none');
+    bookp.classList.add('none');
+    rightsec.classList.add('mg-r-4');
+} -->

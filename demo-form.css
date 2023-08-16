@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 420px;
+    height: 520px;
+    padding: 10px 5px 20px 5px;
+    margin: -15vh 850px;
+    box-shadow: 5px 5px 6px -7px;
+}
+
+input[type="text"], input[text='password'], input[type='number'], input[type='email']{
+    display: block;
+    background-color: #fff;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+button{
+    border: none;
+    background-color: #00b8de;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.f-container{
+    width: 350px;
+    margin-left: 160px;
+    margin-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.f-container img{
+    width: 520px;
+    
+}
+
+.mid-line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+.btn2{
+    width: 180px;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+}
