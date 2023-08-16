@@ -24,7 +24,7 @@ Yellow Doctor is a user-friendly website that simplifies the process of booking 
 3. cd yellow-doctor
 4. Open the index.html file in your preferred web browser.
 
-##Usage
+## Usage
 
 Visit the website's homepage.
 Browse through the list of available doctors and their specialties.
@@ -32,7 +32,7 @@ Choose a doctor and select an available appointment slot.
 Confirm your appointment by providing necessary details.
 Explore the Yellow Doctor Feed for important medical updates, news, and resource requests.
 
-##Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute to Yellow Doctor, follow these steps:
 Fork the repository.
@@ -40,15 +40,16 @@ Create a new branch for your feature or bug fix.
 Implement your changes and ensure proper testing.
 Submit a pull request, describing your changes and their purpose.
 
-##License
+## License
 
 This project is licensed under the MIT License.
 
-##Contact
+## Contact
 
-For questions, feedback, or support, you can reach us at contact@yellowdoctor.com.
+Daksh Sahu
+dakshsahu24@gmail.com
 
-##Acknowledgments
+## Acknowledgments
 
 We extend our appreciation to the medical community for their contributions to healthcare. Special thanks to Firebase for enabling efficient data management.
 
