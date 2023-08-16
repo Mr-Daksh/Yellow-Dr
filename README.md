@@ -46,8 +46,8 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-Daksh Sahu
-dakshsahu24@gmail.com
+- Daksh Sahu
+- dakshsahu24@gmail.com
 
 ## Acknowledgments
 
